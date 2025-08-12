@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/jannat-mugdho/gitHubProjects/batches/Batch12/apiAutomation12">
+       <classes>
+           <class name="click.simple_grocery_store.api.GroceryStoreApiTest"></class>
+       </classes>
+    </test>
+</suite>
