@@ -19,7 +19,7 @@ public class GroceryStoreApiTest extends BaseGroceryStoreApiTest {
                 .when()
                 .get("/products")
                 .then()
-                .statusCode(20)
+                .statusCode(200)
                 .log().body();
     }
 
